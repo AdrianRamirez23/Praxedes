@@ -14,7 +14,7 @@ namespace Praxedes.API.Controllers
     /// Controlador de grupo familiar
     /// </summary>
     [Authorize]
-    [RoutePrefix("GrupoFamiliar")]
+    [RoutePrefix("api/GrupoFamiliar")]
     public class GrupoFamilarController : ApiController
     {
         ///GET:api/GrupoFamiliar/ListarGrupoFamiliar
